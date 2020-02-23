@@ -1,0 +1,29 @@
+$Checkpoint = head -c1 ./Setup/Checkpoint.txt
+$CurrentPath = cat ./Setup/Path.txt
+
+if [$Checkpoint = 1]
+then
+  echo $CurrentPath | ./Part1
+  $Checkpoint = $Checkpoint + 1
+else
+  if [$Checkpoint = 2]
+  then
+    echo $CurrentPath | ./Part2
+    $Checkpoint = $Checkpoint + 1
+  else
+    if [$Checkpoint = 3]
+    then
+      echo $CurrentPath | ./Part3
+      $Checkpoint = $Checkpoint + 1
+    else
+      if [$Checkpoint = 4]
+      then
+        echo $CurrentPath | ./Part4
+        $Checkpoint = $Checkpoint + 1
+      else
+        if [$Checkpoint = 5]
+          then
+           echo $CurrentPath | ./Part5
+          else
+            echo Well done, you have completed the game. You can now freely guide around the terminal.
+    
