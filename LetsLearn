@@ -1,5 +1,5 @@
-$Checkpoint = head -c1 ./Setup/Checkpoint.txt
-$CurrentPath = cat ./Setup/Path.txt
+$Checkpoint = head -c1 ./NeededFiles/Checkpoint.txt
+$CurrentPath = cat ./NeededFiles/Path.txt
 
 if [$Checkpoint = 1]
 then
