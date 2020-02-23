@@ -25,5 +25,5 @@ else
           then
            echo $CurrentPath | ./Part5
           else
-            echo Well done, you have completed the game. You can now freely guide around the terminal.
+            echo Well done, you have completed the game. You can now freely move around the terminal.
     
