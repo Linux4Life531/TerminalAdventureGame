@@ -1,4 +1,4 @@
-echo Thanks for downloading, this file will setup what you need to have done.
+echo "Thanks for downloading, this file will setup what you need to have done."
 
 chmod 700 LetsLearn
 # This makes the file lets learn ecxecutable
